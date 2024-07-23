@@ -30,7 +30,7 @@ public class Bolsa  {
 
         media = total / contador;
         mediafilhos = (double) totalfilhos / contador;
-        porcentagem = (percentual * 100) / contador;
+        porcentagem = (percentual * 1000) / contador;
 
         System.out.println("A média do salário é R$: " + media);
         System.out.println("A média do número de filhos é: " + mediafilhos);
