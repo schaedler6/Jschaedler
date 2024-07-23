@@ -1,0 +1,66 @@
+@startuml
+:admin: -> (cria cadastro de empresas ext)
+:admin: -> (edita cadastro de empresas ext)
+:admin: -> (exclui cadastro de empresas ext)
+:admin: -> (consulta cadastro de empresas ext) 
+:admin: -> (cria cadastro meio de transporte)
+:admin: -> (edita meio de transporte)
+:admin: -> (exclui meio de transporte)
+:admin: -> (consulta meio de transporte)
+:admin: -> (cria cadastro de produto)
+:admin: -> (edita cadastro de produto)
+:admin: -> (exclui cadastro de produto)
+:admin: -> (consulta cadastro de produto)
+:admin: -> (cria cadastro de modelo)
+:admin: -> (edita cadastro de modelo)
+:admin: -> (exclui cadastro de modelo)
+:admin: -> (consulta cadastro de modelo)
+:admin: -> (cria cadastro de cor)
+:admin: -> (edita cadastro de cor)
+:admin: -> (exclui cadastro de cor)
+:admin: -> (consulta cadastro de cor)
+:admin: -> (cria cadastro de tipo de material)
+:admin: -> (edita cadastro de tipo de material)
+:admin: -> (exclui cadastro de tipo de material)
+:admin: -> (consulta cadastro de tipo de material)
+:admin: -> (cria cadastro de equipamento)
+:admin: -> (edita cadastro de equipamento)
+:admin: -> (exclui cadastro de equipamento)
+:admin: -> (consulta cadastro de equipamento)
+:admin: -> (cadastro de número de nota fiscal)
+:admin: -> (gera Ordem de Serviço)
+:admin: -> (gera arquivo QR Code de Ordem de Serviço)
+:admin: -> (cadastra tabela de prazos)
+:admin: -> (cadastra data de pgto)
+:admin: -> (cria alerta de envio)
+:admin: -> (cria alerta de recebimento QR Code)
+:admin: -> (cria alerta de retorno)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml

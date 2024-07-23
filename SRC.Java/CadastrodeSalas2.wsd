@@ -1,0 +1,9 @@
+@startuml
+:Admin: -> (cadastro id cliente e  de salas,descrição das salas)
+:Admin: -> (consuta de salas, armazenamento navegador)
+:Admin: -> (Validar a data e hora informadas, verificando se a sala está
+disponível no horário desejado)
+:Admin: -> (criar cadastro do cliente)
+:vendedor: -> (Permitir a busca de um agendamento específico pelo ID)
+:vendedor: -> (Permitir a exclusão de um agendamento)
+@enduml

@@ -1,0 +1,41 @@
+@startuml
+class Sala {
+  - id: int
+  - numero: string
+  - descricao: string
+
+  + cadastrar(numero: string, descricao: string)
+}
+
+class Reserva {
+  - id: int
+  - sala: Sala
+  - data: Date
+  - hora: Time
+  - status: boolean
+
+  + agendar(sala: Sala, data: Date, hora: Time)
+  + validarDisponibilidade()
+}
+
+class Agendamento {
+  - reservas: List<Reserva>
+
+  + adicionarReserva(reserva: Reserva)
+  + buscarReserva(id: int)
+  + editarReserva(reserva: Reserva)
+  + excluirReserva(id: int)
+  + visualizarAgendamentos()
+}
+
+class Sessao {
+  - salas: List<Sala>
+  - agendamentos: Agendamento
+
+  + cadastrarSala(sala: Sala)
+  + getSalas()
+  + getAgendamentos()
+}
+
+note "Sessao é um objeto que armazena as informações das salas e agendamentos na sessão do navegador"
+@enduml
