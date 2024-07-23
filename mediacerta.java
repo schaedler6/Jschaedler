@@ -1,4 +1,4 @@
-at Notas.main(mediacerta.java:2){
+ Notas.main(mediacerta.java:2){
     public static void main(String[] args) {
         String jaspionName = "Jaspion";
         String tiriricaName = "Tiririca";
